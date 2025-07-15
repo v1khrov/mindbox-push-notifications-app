@@ -7,7 +7,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### Build app
 
 Run `npm install` to install all dependencies
+
 Next run `npm run build-mobile-debug` to build Angular project
+
 Next run `npm run build-apk-debug` to build APK-file
 
 Install APK to your device or emulator
