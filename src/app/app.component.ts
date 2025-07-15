@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { IonHeader, IonToolbar, IonTitle, IonContent } from "@ionic/angular/standalone";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [IonContent, IonTitle, IonToolbar, IonHeader],
   templateUrl: './app.component.html',
   styleUrl: './app.component.less'
 })
